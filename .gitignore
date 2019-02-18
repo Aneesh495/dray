@@ -1,0 +1,25 @@
+# Build artifacts
+bin/
+lib/
+*.o
+*.so
+*.dylib
+*.a
+
+# Roc compiler outputs
+*.rh
+*.rm
+.roc/
+
+# Python cache
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# System and temporary files
+.DS_Store
+*.log
+data/
