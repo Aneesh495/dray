@@ -1,0 +1,23 @@
+{
+  "instance_name": "rc101_mixed",
+  "depots": [
+    { "id": 0, "x": 40.0, "y": 50.0, "ready": 0.0, "due": 240.0 }
+  ],
+  "fleet": [
+    { "id": 1, "capacity": 200, "depot_id": 0, "earliest_start": 0.0, "latest_end": 240.0 },
+    { "id": 2, "capacity": 200, "depot_id": 0, "earliest_start": 0.0, "latest_end": 240.0 },
+    { "id": 3, "capacity": 200, "depot_id": 0, "earliest_start": 0.0, "latest_end": 240.0 }
+  ],
+  "customers": [
+    { "id": 1, "x": 25.0, "y": 85.0, "demand": 20, "ready": 67.0, "due": 77.0, "service": 10.0 },
+    { "id": 2, "x": 22.0, "y": 75.0, "demand": 30, "ready": 102.0, "due": 112.0, "service": 10.0 },
+    { "id": 3, "x": 22.0, "y": 85.0, "demand": 10, "ready": 150.0, "due": 160.0, "service": 10.0 },
+    { "id": 4, "x": 20.0, "y": 80.0, "demand": 40, "ready": 140.0, "due": 150.0, "service": 10.0 },
+    { "id": 5, "x": 20.0, "y": 85.0, "demand": 20, "ready": 80.0, "due": 90.0, "service": 10.0 },
+    { "id": 6, "x": 18.0, "y": 75.0, "demand": 20, "ready": 180.0, "due": 190.0, "service": 10.0 },
+    { "id": 7, "x": 15.0, "y": 75.0, "demand": 20, "ready": 70.0, "due": 80.0, "service": 10.0 },
+    { "id": 8, "x": 15.0, "y": 80.0, "demand": 10, "ready": 95.0, "due": 105.0, "service": 10.0 },
+    { "id": 9, "x": 10.0, "y": 35.0, "demand": 20, "ready": 110.0, "due": 120.0, "service": 10.0 },
+    { "id": 10, "x": 10.0, "y": 40.0, "demand": 30, "ready": 125.0, "due": 135.0, "service": 10.0 }
+  ]
+}
