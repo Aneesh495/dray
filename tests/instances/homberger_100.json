@@ -1,0 +1,33 @@
+{
+  "instance_name": "homberger_100",
+  "depots": [
+    { "id": 0, "x": 50000.0, "y": 50000.0, "ready": 0.0, "due": 86400.0 }
+  ],
+  "fleet": [
+    { "id": 1, "capacity": 200, "depot_id": 0, "earliest_start": 0.0, "latest_end": 86400.0 },
+    { "id": 2, "capacity": 200, "depot_id": 0, "earliest_start": 0.0, "latest_end": 86400.0 },
+    { "id": 3, "capacity": 200, "depot_id": 0, "earliest_start": 0.0, "latest_end": 86400.0 },
+    { "id": 4, "capacity": 200, "depot_id": 0, "earliest_start": 0.0, "latest_end": 86400.0 },
+    { "id": 5, "capacity": 200, "depot_id": 0, "earliest_start": 0.0, "latest_end": 86400.0 },
+    { "id": 6, "capacity": 200, "depot_id": 0, "earliest_start": 0.0, "latest_end": 86400.0 },
+    { "id": 7, "capacity": 200, "depot_id": 0, "earliest_start": 0.0, "latest_end": 86400.0 },
+    { "id": 8, "capacity": 200, "depot_id": 0, "earliest_start": 0.0, "latest_end": 86400.0 }
+  ],
+  "customers": [
+    { "id": 1, "x": 55000.0, "y": 55000.0, "demand": 10, "ready": 0.0, "due": 43200.0, "service": 300.0 },
+    { "id": 2, "x": 60000.0, "y": 58000.0, "demand": 15, "ready": 0.0, "due": 43200.0, "service": 300.0 },
+    { "id": 3, "x": 62000.0, "y": 65000.0, "demand": 12, "ready": 0.0, "due": 43200.0, "service": 300.0 },
+    { "id": 4, "x": 58000.0, "y": 70000.0, "demand": 18, "ready": 0.0, "due": 43200.0, "service": 300.0 },
+    { "id": 5, "x": 52000.0, "y": 72000.0, "demand": 22, "ready": 0.0, "due": 43200.0, "service": 300.0 },
+    { "id": 6, "x": 48000.0, "y": 68000.0, "demand": 14, "ready": 0.0, "due": 43200.0, "service": 300.0 },
+    { "id": 7, "x": 42000.0, "y": 65000.0, "demand": 16, "ready": 0.0, "due": 43200.0, "service": 300.0 },
+    { "id": 8, "x": 38000.0, "y": 58000.0, "demand": 25, "ready": 0.0, "due": 43200.0, "service": 300.0 },
+    { "id": 9, "x": 42000.0, "y": 52000.0, "demand": 11, "ready": 0.0, "due": 43200.0, "service": 300.0 },
+    { "id": 10, "x": 45000.0, "y": 48000.0, "demand": 19, "ready": 0.0, "due": 43200.0, "service": 300.0 },
+    { "id": 11, "x": 48000.0, "y": 42000.0, "demand": 20, "ready": 0.0, "due": 43200.0, "service": 300.0 },
+    { "id": 12, "x": 52000.0, "y": 38000.0, "demand": 15, "ready": 0.0, "due": 43200.0, "service": 300.0 },
+    { "id": 13, "x": 58000.0, "y": 42000.0, "demand": 13, "ready": 0.0, "due": 43200.0, "service": 300.0 },
+    { "id": 14, "x": 65000.0, "y": 45000.0, "demand": 17, "ready": 0.0, "due": 43200.0, "service": 300.0 },
+    { "id": 15, "x": 68000.0, "y": 50000.0, "demand": 24, "ready": 0.0, "due": 43200.0, "service": 300.0 }
+  ]
+}

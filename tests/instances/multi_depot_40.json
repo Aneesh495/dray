@@ -1,0 +1,31 @@
+{
+  "instance_name": "multi_depot_40",
+  "depots": [
+    { "id": 0, "x": 20000.0, "y": 20000.0, "ready": 0.0, "due": 86400.0 },
+    { "id": 1, "x": 80000.0, "y": 20000.0, "ready": 0.0, "due": 86400.0 },
+    { "id": 2, "x": 20000.0, "y": 80000.0, "ready": 0.0, "due": 86400.0 },
+    { "id": 3, "x": 80000.0, "y": 80000.0, "ready": 0.0, "due": 86400.0 }
+  ],
+  "fleet": [
+    { "id": 1, "capacity": 100, "depot_id": 0, "earliest_start": 0.0, "latest_end": 86400.0 },
+    { "id": 2, "capacity": 100, "depot_id": 1, "earliest_start": 0.0, "latest_end": 86400.0 },
+    { "id": 3, "capacity": 100, "depot_id": 2, "earliest_start": 0.0, "latest_end": 86400.0 },
+    { "id": 4, "capacity": 100, "depot_id": 3, "earliest_start": 0.0, "latest_end": 86400.0 },
+    { "id": 5, "capacity": 100, "depot_id": 0, "earliest_start": 0.0, "latest_end": 86400.0 },
+    { "id": 6, "capacity": 100, "depot_id": 1, "earliest_start": 0.0, "latest_end": 86400.0 }
+  ],
+  "customers": [
+    { "id": 4, "x": 25000.0, "y": 25000.0, "demand": 15, "ready": 3600.0, "due": 18000.0, "service": 600.0 },
+    { "id": 5, "x": 18000.0, "y": 22000.0, "demand": 20, "ready": 7200.0, "due": 21600.0, "service": 600.0 },
+    { "id": 6, "x": 22000.0, "y": 15000.0, "demand": 10, "ready": 3600.0, "due": 14400.0, "service": 600.0 },
+    { "id": 7, "x": 85000.0, "y": 22000.0, "demand": 25, "ready": 5400.0, "due": 18000.0, "service": 600.0 },
+    { "id": 8, "x": 78000.0, "y": 18000.0, "demand": 12, "ready": 7200.0, "due": 25200.0, "service": 600.0 },
+    { "id": 9, "x": 82000.0, "y": 28000.0, "demand": 18, "ready": 3600.0, "due": 14400.0, "service": 600.0 },
+    { "id": 10, "x": 22000.0, "y": 82000.0, "demand": 22, "ready": 7200.0, "due": 21600.0, "service": 600.0 },
+    { "id": 11, "x": 15000.0, "y": 78000.0, "demand": 14, "ready": 3600.0, "due": 14400.0, "service": 600.0 },
+    { "id": 12, "x": 28000.0, "y": 85000.0, "demand": 16, "ready": 5400.0, "due": 18000.0, "service": 600.0 },
+    { "id": 13, "x": 82000.0, "y": 82000.0, "demand": 20, "ready": 7200.0, "due": 25200.0, "service": 600.0 },
+    { "id": 14, "x": 78000.0, "y": 85000.0, "demand": 10, "ready": 3600.0, "due": 14400.0, "service": 600.0 },
+    { "id": 15, "x": 85000.0, "y": 78000.0, "demand": 30, "ready": 5400.0, "due": 18000.0, "service": 600.0 }
+  ]
+}
